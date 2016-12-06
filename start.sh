@@ -1,1 +1,1 @@
-node server.js
+python 0.0.0.0 8000
