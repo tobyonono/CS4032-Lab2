@@ -19,7 +19,7 @@ def _initialise(hostAddress,portNum):
 
 def _dealWithClient(conn, address):
 	buffer = 2048
-	print("hello" + address)
+	##print("hello" + address)
 	while True:
 		try:
 			message = conn.recv(buffer)
